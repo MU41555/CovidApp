@@ -3,26 +3,38 @@
   padding: 0;
   box-sizing: border-box;
 }
-h3{
+.parent{
   text-align: center;
-  margin-top: 30px;
-  background-color: greenyellow;
-  padding: 10px 0;
+  color: white;
+  background-color: #333;
+  height: 8rem;
+  padding-top: 1.5rem;
 }
-table thead tr td{
-  background-color: rgb(139, 247, 7);
-  border: 1px solid green;
+h3{
+  font-size: 2rem;
+}
+.container{
+  margin: 0 auto;
+  background-color: rgb(167, 167, 167);
+}
+.container thead tr td{
+  background-color: #444;
+  border: 1px solid #111;
   text-transform: capitalize;
   text-align: center;
   font-size: 18px;
   font-weight: bold;
-  color: rgb(107, 105, 105);
+  color: white;
+  width: 12rem;
+  height: 1rem;
+ 
 }
-table tbody tr td{
-  border: 1px solid green;
+.container tbody tr td{
+  border: 1px solid #111;
   text-transform: capitalize;
   text-align: center;
-  background-color: rgb(203, 253, 203);
+  background-color: #444;
   font-size: 18px;
+  color: rgb(221, 221, 221);
   font-weight: bold;
 }

@@ -1,8 +1,9 @@
 import "./App.css";
+import Detail from "./details";
 import axios from "axios";
 import { useEffect, useState } from "react";
-import { useLocation, useNavigate } from "react-router";
-import { NavLink } from "react-router-dom";
+// import { useLocation, useNavigate } from "react-router";
+// import { NavLink } from "react-router-dom";
 
 function App() {
   const [covid, setcovid] = useState([]);
@@ -32,7 +33,10 @@ function App() {
 
   return (
     <>
-      <h3 className="container">Covid Tracker</h3>
+    <div className="parent">
+      <h3>Covid Tracker App</h3>
+      <p>A Project of JAWAN Pakistan</p>
+      </div>
       <table className="container">
         <thead>
           <tr className="head">
